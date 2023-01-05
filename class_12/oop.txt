@@ -1,0 +1,17 @@
+1) sable access garna pauna ko lagi hami "self" use garcham
+        i)Constructor Destructor dubai ma self use garnai parcha
+        ii)class le matra call garda chai we don't need to use "self"
+
+2)kei kura nabolai aafai print ya initialize garna we use "__init__"(This is the constructor in Python)
+
+3)similarly "__del__" is used as a Destructor in Python
+
+4)function bhitra argument pass garne syntax:
+  ---> class class_name:
+            def function_name (self,arg1,arg2,....):
+                self.any_name = arg1
+                self.any_name1 = arg2
+                .
+                .
+                .
+        obj_name = class_name(arg1,arg2,....)
