@@ -1,0 +1,11 @@
+#install bhayena bhane venv lai reinstall garera feri jupyter lai install garne
+
+#To download Jupyter notebook
+    --> pip install jupyter notebook eti type garne
+#ani CMD ma (venv folder bhitra hunaparyo)
+    --> jupyter notebook
+    yo garyo bhane browser ma khulcha
+#then, "new" ma click garera "Python 3" ma gayo bhane jupyter ko terminal kholcha ani we can code python in install
+    --> shift + enter = run garne shortcut
+    --> In[] = [] blank bhaneko run nabhako
+    --> In[*] = * bhaneko running code
