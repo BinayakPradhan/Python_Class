@@ -15,3 +15,31 @@
                 .
                 .
         obj_name = class_name(arg1,arg2,....)
+
+
+
+        **OOP in Detail**
+Class: A class is a blueprint for creating objects (a particular data structure), providing initial values for state (member variables or attributes), and implementations of behavior (member functions or methods).
+
+Object: An object is an instance of a class. It can be thought of as a specific element or entity in the real world that can be represented as an instance of a class.
+
+Attribute: An attribute is a characteristic or property of an object, represented as a variable.
+
+Method: A method is a function that is associated with an object. It operates on the data contained within the object and can be used to modify the state of the object.
+
+Constructor: A constructor is a special method that is automatically called when an object is created. The purpose of a constructor is to initialize the attributes of an object when it is created. In Python, the __init__ method serves as a constructor.
+
+Inheritance: Inheritance is a mechanism that allows one class to inherit properties and behaviors from another class. A derived class (also known as a subclass) is created from a base class (also known as a superclass) and can add or override the methods and attributes of the base class.
+
+Polymorphism: Polymorphism refers to the ability of an object to take on multiple forms. In Python, polymorphism is achieved through method overriding and method overloading. Method overriding occurs when a subclass provides a new implementation of a method that is already defined in the superclass. Method overloading occurs when a class provides multiple methods with the same name but different parameters.
+
+Encapsulation: Encapsulation is the process of hiding the implementation details of an object and exposing only the public interface. This protects the object's internal state from being modified directly, which makes it easier to maintain and change the implementation over time. In Python, encapsulation is achieved through the use of access specifiers (e.g., private, protected, and public), which control the accessibility of attributes and methods within a class.
+
+Abstraction: Abstraction is the process of hiding the complexity of an object and exposing only the essential features. This makes it easier to understand and use the object, and allows for a clear separation between the implementation and the interface. In Python, abstraction is achieved through the use of abstract classes and methods. An abstract class is a class that cannot be instantiated and is meant to be subclassed. An abstract method is a method that is declared but not implemented in the abstract class, and must be overridden in the subclass.
+
+These are the main concepts of OOP in Python. Understanding and applying these concepts can help you write more organized, reusable, and maintainable code.
+
+
+In this example, we have a base class Animal and a derived class Dog. The Animal class has a make_sound method that prints a generic animal sound. The Dog class overrides the make_sound method and adds its own implementation to print "Woof!".
+
+The super function is used to call the implementation of the parent class method. In this case, the super().make_sound() call invokes the implementation of the make_sound method in the Animal class, so that it prints "Some generic animal sound". Then, the method in the Dog class continues with its own implementation, which is to print "Woof!".
